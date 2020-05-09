@@ -25,12 +25,6 @@
   This method returns the binary representation of a number. 10.to_binary returns '1010'
 
 ### Array extensions
-  ### max_value
-  Returns the item with the highest value in an array of numbers.
-
-  ### min_value
-  Returns the item with the lowest value in an array of numbers.
-  
   ### odd_occurences
   Returns the element in an array whose frequency of occurence is an odd number. [2,3,4,5,4,3,2,6].odd_occurences returns 6
 
