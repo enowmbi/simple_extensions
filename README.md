@@ -24,9 +24,6 @@
   ### to_binary
   This method returns the binary representation of a number. 10.to_binary returns '1010'
 
-  ### prime?
-  Returns true if a number is prime  and false if it is not. 10.prime? returns false because it is not a prime number.
-
 ### Array extensions
   ### max_value
   Returns the item with the highest value in an array of numbers.

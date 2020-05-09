@@ -7,15 +7,6 @@ RSpec.describe Integer do
     end
   end
 
-  describe "#prime?" do 
-    it "returns true if a number is prime" do 
-      expect(17.prime?).to be true
-    end
-    it "returns false if a number is not prime" do 
-      expect(18.prime?).to be false
-    end
-  end
-
 end
 
 

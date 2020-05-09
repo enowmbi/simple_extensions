@@ -9,12 +9,4 @@ class Integer
     return remainder.reverse.join('')
   end
 
-  def prime?
-    2.upto(Math.sqrt(self)) do |num|
-      return false if self % i == 0 
-    end
-
-    return true
-  end 
-
 end
