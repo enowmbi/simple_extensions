@@ -1,10 +1,50 @@
 # Extension
+## About
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/extension`. To experiment with that code, run `bin/console` for an interactive prompt.
+  Extension adds methods to String, Integer and Array classes. These methods provide solutions to basic computer Science problems. 
+   
+### String extensions
+  ### palindrome?
+  This method returns true if the string is a palindrome or false if otherwise."string".palindrome? returns false because "string" is not a palindrome
 
-TODO: Delete this and the text above, and describe your gem
+  ### inplace_reversal!
+  This simple method that reverses a string. It has a low memory footprint. "coin".implace_reversal! returns "nioc". Please note that the original string is changed as indicated by the !
 
-## Installation
+  ### maximum_number_of_characters
+  This method returns an array of the character with the highest frequency in a string of characters as well as the number of times it appears on the string.
+    "AAEBEEEABBCE".maximum_number_of_characters returns [E, 4]
+  ### maximum_consecutive_sequence_of_character
+   Returns the longest sequence of characters together with its frequency in the sequence as a hash. "AAEBEEEABBCE".maximum_sequence_of_characters returns {:E => 3}
+
+  ### first_recurring_character
+  Ruturns the first character that appears more than once
+
+  ### titleize 
+  Returns the string with the first letter in capital case
+
+
+### Integer extensions
+  ### to_binary
+  This method returns the binary representation of a number. 10.to_binary returns '1010'
+
+  ### prime?
+  Returns true if a number is prime  and false if it is not. 10.prime? returns false because it is not a prime number.
+
+### Array extensions
+  ### max_value
+  Returns the item with the highest value in an array of numbers.
+
+  ### min_value
+  Returns the item with the lowest value in an array of numbers.
+  
+  ### odd_occurences
+  Returns the element in an array whose frequency of occurence is an odd number. [2,3,4,5,4,3,2,6].odd_occurences returns 6
+
+  ### cyclic_rotation
+  Returns an array with the elements shifted to the right n number of times (where n is the number of rotations).
+  [1,2,3,4].cyclic_rotation(2) returns [3,4,1,2]
+
+## Usage
 
 Add this line to your application's Gemfile:
 
@@ -20,19 +60,10 @@ Or install it yourself as:
 
     $ gem install extension
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/extension. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/extension/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/enowmbi/extension. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/enowmbi/extension/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
