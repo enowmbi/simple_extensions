@@ -4,19 +4,19 @@ Gem::Specification.new do |spec|
   spec.name          = "extension"
   spec.version       = Extension::VERSION
   spec.authors       = ["Enow Mbi"]
-  spec.email         = ["benowmbi@yahoo.com"]
+  spec.email         = ["benowmbi@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Extend String, Integer and Array classes with common Computer Science Algorithm solutions.}
+  spec.description   = %q{Have you ever thought of adding common algorithm solutions to your regular String, Integer and Array classes ? If so then this gem will make sense. While the number of algorithm solutions are not many, solutions are being added with time.}
+  spec.homepage      = "https://github.com/enowmbi/extensions"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "http://www.rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/enowmbi/extensions"
+  spec.metadata["changelog_uri"] = "https://github.com/enowmbi/extensions"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
