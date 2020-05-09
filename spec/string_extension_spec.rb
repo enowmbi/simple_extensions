@@ -21,12 +21,6 @@ RSpec.describe String do
     end
   end
 
-  describe "#maximum_consecutive_sequence_of_characters" do 
-    it "returns a hash with the character that has the longest consecutive sequence and its frequency" do 
-      expect("BBCEEAAAABCWX".maximum_consecutive_sequence_of_characters).to eq({:A=>4})
-    end
-  end
-
   describe "#first_recurring_character" do 
     it "returns the first character that has a frequency of 2 or more" do 
       expect("AABBCEEAAAABCWX".first_recurring_character).to eq 'A'

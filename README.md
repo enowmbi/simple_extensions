@@ -11,10 +11,7 @@
   This simple method that reverses a string. It has a low memory footprint. "coin".implace_reversal! returns "nioc". Please note that the original string is changed as indicated by the !
 
   ### maximum_number_of_characters
-  This method returns an array of the character with the highest frequency in a string of characters as well as the number of times it appears on the string.
-    "AAEBEEEABBCE".maximum_number_of_characters returns [E, 4]
-  ### maximum_consecutive_sequence_of_character
-   Returns the longest sequence of characters together with its frequency in the sequence as a hash. "AAEBEEEABBCE".maximum_sequence_of_characters returns {:E => 3}
+  This method returns an array of the character with the highest frequency in a string of characters as well as the number of times it appears on the string.  "AAEBEEEABBCE".maximum_number_of_characters returns [E, 4]
 
   ### first_recurring_character
   Ruturns the first character that appears more than once
