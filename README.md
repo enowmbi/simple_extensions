@@ -1,7 +1,7 @@
-# Extension
+# SimpleExtension
 ## About
 
-  Extension adds methods to String, Integer and Array classes. These methods provide solutions to basic computer Science problems. 
+  SimpleExtension adds methods to String, Integer and Array classes. These methods provide solutions to basic computer Science problems. 
    
 ### String extensions
   ### palindrome?
@@ -37,7 +37,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'extension'
+gem 'simple_extension'
 ```
 
 And then execute:
@@ -46,12 +46,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install extension
+    $ gem install simple_extension
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/enowmbi/extensions. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/enowmbi/extensions/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/enowmbi/simple_extensions. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/enowmbi/simple_extensions/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -60,4 +60,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Extension project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/enowmbi/extensions/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the SimpleExtension project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/enowmbi/simple_extensions/blob/master/CODE_OF_CONDUCT.md).

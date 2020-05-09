@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "extension"
+require "simple_extension"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
