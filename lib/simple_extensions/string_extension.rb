@@ -61,4 +61,28 @@ class String
     self.split(' ').collect {|word| word.capitalize}.join(" ")
   end
 
+  def longest_consecutive_character
+    max_char =''
+    max_length = 0
+    current_length = 0
+    previous_char = ''
+    longest_character_sequence = {}
+
+    self.each_char do |char|
+      if previous_char == char
+        current_length += 1
+      else
+        current_length = 1
+      end
+
+      if max_length < current_length 
+        max_length = current_length
+        max_char = char
+      end
+      previous_char = char
+    end
+    longest_character_sequence[max_char] = max_length
+    return longest_character_sequence
+  end
+
 end
