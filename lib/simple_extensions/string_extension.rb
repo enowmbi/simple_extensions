@@ -1,9 +1,15 @@
 class String
   def palindrome?
     if self && !self.empty? && self.length > 1
-      return self.reverse == self ? true : false
-    else
-      return false
+      stack = []
+      reversed_string = ''
+      self.each_char do |char|
+        stack << char
+      end
+      until stack.empty?
+        reversed_string += stack.pop
+      end
+      return self == reversed_string ? true : false
     end
   end
 
