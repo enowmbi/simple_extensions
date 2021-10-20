@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Adds methods to String class
 class String
   def palindrome?
     if self && !self.empty? && self.length > 1

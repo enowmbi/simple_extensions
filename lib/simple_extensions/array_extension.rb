@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Add methods to Array class
 class Array
   def odd_occurences
     hash = {}
