@@ -18,6 +18,6 @@ class String
         max_count = character_hash[char]
       end
     end
-    { max_char: max_count }
+    [max_char, max_count]
   end
 end
