@@ -1,12 +1,14 @@
-class Integer 
+# frozen_string_literal: false
+
+# Adds methods to Integer class
+class Integer
   def to_binary
     number = self
     remainder = []
-    while number > 0
+    while number.positive?
       remainder << number % 2
-      number = number / 2
+      number /= 2
     end
-    return remainder.reverse.join('')
+    remainder.reverse.join('')
   end
-
 end
