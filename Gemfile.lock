@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple_extensions (0.1.0)
+    simple_extensions (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -31,4 +31,4 @@ DEPENDENCIES
   simple_extensions!
 
 BUNDLED WITH
-   2.1.2
+   2.2.15

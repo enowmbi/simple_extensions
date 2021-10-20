@@ -5,7 +5,7 @@ class String
   def palindrome?
     current_string = self
     return if current_string.empty?
-    return unless current_string.positive?
+    return unless current_string.length.positive?
 
     stack_of_chars_from_string = []
     reversed_string = ""
